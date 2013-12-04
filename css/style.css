@@ -1,0 +1,36 @@
+body {
+	margin: 0;
+}
+
+#capture {
+	display: block;
+	margin: auto;
+	width: 300px;
+	-webkit-transform: scaleX(-1); /* 좌우반전 */
+	-webkit-mask-image: url(../img/circle.png);
+	-webkit-mask-size: 130px 130px;
+	-webkit-mask-position: center;
+	-webkit-mask-repeat: no-repeat;
+}
+
+#ui {
+	margin-top: 50px;
+	margin-bottom: -30px;
+	text-align: center;
+}
+
+#filmstrip {
+	overflow-y: 1;
+	background-color: #fafafa;
+	-webkit-mask-image: url(../img/circle.png);
+	-webkit-mask-size: 130px 130px;
+	-webkit-mask-position: center;
+	-webkit-mask-repeat: no-repeat;
+	-webkit-transform: scaleX(-1);
+}
+
+.film {
+	display: block;
+	margin: auto;
+	width: 300px;
+}
